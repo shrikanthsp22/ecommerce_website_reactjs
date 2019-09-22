@@ -6,7 +6,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    // border: 1px solid black;
+    border-radius: 10px;
     margin: 0 7.5px 15px;
     overflow:hidden;
 
@@ -44,7 +45,7 @@
 
     }
     .content {
-      font-family:cursive;
+      
       height: 90px;
       padding: 0 25px;
       display: flex;
@@ -58,6 +59,7 @@
       position: absolute;
       
       .title {
+        font-family: 'Mansalva', cursive;
         font-weight: bold;
         margin-bottom: 6px;
         font-size: 22px;

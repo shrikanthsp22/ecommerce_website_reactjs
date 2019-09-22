@@ -34,5 +34,17 @@
 
 body{
   font-family: 'Open Sans Condensed', sans-serif;
-  padding:20px 60px;
+  padding:20px 40px;
+  background-color: rgb(245, 241, 228);
+}
+
+a{
+  text-decoration: none;
+  color:black;
+  font-family: 'Mansalva', cursive;
+  font-size:30px;
+}
+a:hover{
+  transform:scale(1.05);
+  color:rgb(218, 150, 25);
 }
